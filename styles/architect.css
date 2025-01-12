@@ -139,5 +139,8 @@ nav li a{
         margin-left: -50px;
     }
 }
-
-
+/* main syles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
