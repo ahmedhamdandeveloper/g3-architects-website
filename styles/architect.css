@@ -5,11 +5,11 @@
 .btn-primary{
     background-color: #ff900e;
     color: white;
-    border-radius: 8px;
+    border-radius: 6px;
     border: 0px;
-    padding: 20px 25px;
+    padding: 13px 17px;
     margin: 28px 0px 38px 0px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -59,6 +59,9 @@ nav li a{
 }
 .banner img{
     width: 100%;
+}
+.banner-img{
+    height: 400px;
 }
 /* responsive styles */
 /* mobile devices */
@@ -138,11 +141,52 @@ nav li a{
 }
 /* main styles */
 main{
-    width: 1445px;
+    
     margin: 0 auto;
 }
 /* features styles */
 .features-container{
     display: flex;
     align-items: center;
+}
+.features-img-container{
+    padding: 60px 50px 70px 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features-content{
+    padding-right: 190px;
+}
+.img-1{
+    width: 200px;
+}
+.img-2{
+    width: 200px;
+}
+.img-3{
+    width: 200px;
+}
+.img-4{
+    width: 200px;
+}
+.features-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.features-title-1{
+    color: #727272;
+    font-size: 25px;
+    font-weight: 400;
+}
+.features-title-2{
+    color: #131313;
+    font-size: 25px;
+    font-weight: 600;
+}
+.features-title-3{
+    color: #ff900e;
+    font-size: 25px;
+    font-weight: 600;
 }
